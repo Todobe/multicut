@@ -4,6 +4,7 @@
 ## 使用方法
 
 **鼠标操作**
+
 `python cut_mouse.py image_path1 image_path2 image_path3 ...`
 
 例如：
@@ -16,9 +17,10 @@ python cut_mouse.py ./data/baseline.png ./data/HR.png
 **键盘操作**
 
 `python cut_key.py image_path1 image_path2 image_path3 ...`
+
 例如：
 ```commandline
 python cut_mouse.py ./data/baseline.png ./data/HR.png
 ```
 
-在命令行中输入裁剪图像的左上角、右下角的坐标，在图像上会显示出对应的位置，再按下`y`即可保存。输入0后回车退出程序。
+在命令行中输入裁剪图像的左上角、右下角的坐标，在图像上会显示出对应的位置，再按下`y`即可保存，**注意目录下需要有output文件夹**。输入0后回车退出程序。
