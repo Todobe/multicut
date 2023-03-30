@@ -27,7 +27,7 @@ def main():
     data['pos'] = [(0, 0)]
     for i in range(1, len(imgs)):
         imgs[i] = cv2.resize(imgs[i], (imgs[0].shape[1], imgs[0].shape[0]))
-        data['pos'].append((img1.shape[1]*i, 0))
+        data['pos'].append((imgs[0].shape[1]*i, 0))
 
     print("img size:", imgs[0].shape)
     cv2.namedWindow('multicut', cv2.WINDOW_AUTOSIZE)
